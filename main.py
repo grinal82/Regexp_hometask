@@ -58,7 +58,7 @@ def splitter(contacts_list):
 
 
 def phone_formatter(my_list):
-    # formatting the phone numbers using regex (managed to match all but one phone number)
+    # formatting the phone numbers using regex
     formatted_list = []
     for row in my_list:
         text = ",".join(row)
